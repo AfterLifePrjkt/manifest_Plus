@@ -21,7 +21,7 @@ Credits
 * [**OmniROM**](https://github.com/omnirom/)
 * [**AOSPA**](https://github.com/aospa/)
 * [**BlissRoms**](https://github.com/BlissRoms)
-* [**WizardPrjkt**](https://t.me/wizardX00T)
+* [**SubsZeroPrjkt**](https://t.me/XZone_Ctrl)
 
 How to Build?
 -------------
@@ -30,12 +30,12 @@ To initialize your local repository using the AospExtended trees, use a
 command like this:
 
 ```bash
-repo init -u https://github.com/AfterLifePrjkt/manifest_plus.git -b 12L
+repo init -u https://github.com/AfterLifePrjkt/manifest_plus.git -b 12N
 ```
 To initialize a shallow clone, which will save even more space & time, use a command like this:
 
 ```bash
-repo init --depth=1 -u https://github.com/AfterLifePrjkt/manifest_plus.git -b 12L
+repo init --depth=1 -u https://github.com/AfterLifePrjkt/manifest_plus.git -b 12N
 ```
 
 Then to sync up:
@@ -50,5 +50,5 @@ Finally to build:
 ```bash
 source build/envsetup.sh
 lunch aosp_device_codename-userdebug
-m aex -j$(nproc --all) | tee log.txt
+m aex -j$
 ```

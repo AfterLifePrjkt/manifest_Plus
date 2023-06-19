@@ -24,7 +24,7 @@
 
   <remote  name="afx"
            fetch="https://github.com/AfterLifePrjkt"
-           revision="refs/heads/12L" />
+           revision="refs/heads/12N" />
 
   <remote  name="lineage"
            fetch="https://github.com/LineageOS"
@@ -87,7 +87,7 @@
   <project path="packages/overlays/Themes" name="platform_packages_overlays_Themes" remote="afx" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" groups="pdk-fs" remote="afx" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-fs" remote="afx" />
-  <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" groups="pdk-fs" remote="afx" />
+  <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" groups="pdk-fs" remote="afx" revision="12L" />
   <project path="packages/resources/devicesettings" name="platform_packages_resources_devicesettings" remote="aex" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="afx" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-fs" remote="afx" />
@@ -97,9 +97,9 @@
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="afx" />
   <project path="system/core" name="platform_system_core" groups="pdk" remote="aex" />
   <project path="system/logging" name="platform_system_logging" groups="pdk" remote="aex" />
-  <project path="system/memory/lmkd" name="platform_system_memory_lmkd" groups="pdk" remote="afx" />
+  <project path="system/memory/lmkd" name="platform_system_memory_lmkd" groups="pdk" remote="afx" revision="12L" />
   <project path="system/netd" name="platform_system_netd" groups="pdk" remote="aex" />
-  <project path="system/security" name="platform_system_security" groups="pdk" remote="afx" />
+  <project path="system/security" name="platform_system_security" groups="pdk" remote="afx" revision="12L" />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="afx" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="afx" />
   <project path="system/tools/mkbootimg" name="platform_system_tools_mkbootimg" groups="pdk" remote="aex" />
