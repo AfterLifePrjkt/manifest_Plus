@@ -21,7 +21,7 @@ Credits
 * [**OmniROM**](https://github.com/omnirom/)
 * [**AOSPA**](https://github.com/aospa/)
 * [**BlissRoms**](https://github.com/BlissRoms)
-* [**WizardPrjkt**](https://t.me/wizardX00T)
+* [**SubsZerOPrjkt**](https://t.me/XZone_Ctrl)
 
 How to Build?
 -------------
@@ -50,5 +50,5 @@ Finally to build:
 ```bash
 source build/envsetup.sh
 lunch aosp_device_codename-userdebug
-m aex -j$(nproc --all) | tee log.txt
+m aex -j$
 ```
